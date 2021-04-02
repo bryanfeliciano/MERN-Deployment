@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // _db naming convention
-mongoose.connect("mongodb://localhost/Pet_db", {
+mongoose.connect("mongodb://localhost/EPCR_DB", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 })
